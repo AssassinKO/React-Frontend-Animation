@@ -1,0 +1,86 @@
+header{
+    width: 100%;
+    height: 110px;
+    position: relative;
+}
+.header-content{
+    width: 93%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.menu-div{
+    width: 140px;
+    height: 40px;
+    position: relative;
+    top: 30%;
+    display: flex;
+    overflow: hidden;
+}
+.menu-a{
+    display: flex;
+}
+.menu-icons-div{
+    width:40px;
+    height: 40px;
+}
+.a-menu-icon{
+   width: 100%;
+   height: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   padding-bottom: 5px;
+}
+#a-menu-icon-2{
+    padding-bottom: 15px;
+}
+.menu-icon{
+   font-size: 45px;
+   font-family: plakkaat;
+   color:#F65219;
+}
+.menu-title{
+    font-size: 20px;
+    font-family: plakkaat;
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-top: 5px;
+    color: #F65219;
+    font-style: italic;
+    font-weight: 300;
+}
+.header-title{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+h1{
+    text-align: center;
+    font-family: plakkaat;
+    font-size: 80px;
+    font-style:oblique;
+    color: #F65219;
+    font-weight: 300;
+}
+.cart-div{
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+.cart-title{
+    font-size: 20px;
+    color: black;
+    font-family: plakkaat;
+    font-style: italic;
+    transition: 0.5s;
+    font-weight: 300;
+}
+.cart-title:hover{
+    color: #F65219;
+}
+.cart-number{
+    margin-left: 10px;
+    color: #F65219;
+}

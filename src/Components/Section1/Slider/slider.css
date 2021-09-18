@@ -1,0 +1,108 @@
+.slider-div{
+    width: 100%;
+    height: 415px;
+    position: relative;
+}
+.slider-content{
+    position: relative;
+    top: 15px;
+    left: -2400px;
+    width: 6000px;
+    height: 6000px;
+    border-radius: 50%;
+    transition: 1s ease;
+    display: flex;
+}
+.sliding{
+    width: 300px;
+    height: 6000px;
+    position: absolute;
+    top: 0px;
+    left: 2850px;
+}
+ #sliding1{
+    transform: rotateZ(0deg);
+} 
+#sliding2{
+    transform: rotateZ(10deg);
+}
+#sliding3{
+    transform: rotateZ(20deg);
+}  
+ #sliding4{
+    transform: rotateZ(30deg);
+}  
+#sliding5{
+    transform: rotateZ(40deg);
+} 
+#sliding6{
+    transform: rotateZ(50deg);
+}
+#sliding7{
+    transform: rotateZ(60deg);
+}  
+ #sliding8{
+    transform: rotateZ(70deg);
+}  
+#sliding9{
+    transform: rotateZ(80deg);
+} 
+#sliding10{
+    transform: rotateZ(90deg);
+}
+#sliding11{
+    transform: rotateZ(100deg);
+}
+#sliding12{
+    transform: rotateZ(110deg);
+}
+#sliding13{
+    transform: rotateZ(120deg);
+}
+#sliding14{
+    transform: rotateZ(130deg);
+}
+#sliding15{
+    transform: rotateZ(140deg);
+}
+.slide-image{
+    width: 100%;
+    height: 400px;
+}
+.responsive-slider-buttons-div{
+   width: 100%;
+   height: 0;
+   position: relative;
+}
+.slider-button{
+    position: absolute;
+    top: 250px;
+    background-color: #F65219;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    display: none;
+}
+.slider-button:hover{
+    width: 110px;
+    height: 110px;
+    background-color: black;
+}
+.slider-button:hover #slider-button-icon{
+    color:#F65219 ;
+}
+#slider-button-left{
+    left: 50px;
+}
+#slider-button-right{
+    right: 50px;
+}
+#slider-button-icon{
+    font-size: 25px;
+    transition: 0.5s;
+}

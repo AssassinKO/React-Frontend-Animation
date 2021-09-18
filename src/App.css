@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+div,input,section{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.background-image{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+@font-face {
+  font-family:plakkaat;
+  src: url('./Plakkaat-qKOr.ttf');
+}

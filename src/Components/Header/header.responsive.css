@@ -1,0 +1,166 @@
+@media screen and (max-width:1100px){
+    h1{
+        font-size:72px;
+    }
+}
+@media screen and (max-width:1000px){
+    h1{
+        font-size:67px;
+    }
+    .menu-title{
+        font-size:19px;
+    }
+    .cart-title{
+        font-size:19px;
+    }
+}
+@media screen and (max-width:950px){
+    h1{
+        font-size:62px;
+    }
+}
+@media screen and (max-width:900px){
+    h1{
+        font-size:58px;
+    }
+    .header-title{
+        top: 17%;
+    }
+    .menu-title{
+        font-size:18px;
+    }
+    .menu-div{
+         top: 28%;
+    }
+}
+@media screen and (max-width:850px){
+    h1{
+        font-size:55px;
+    }
+    .header-title{
+        top: 15%;
+    }
+}
+@media screen and (max-width:800px){
+    h1{
+        font-size:52px;
+    }
+    .header-title{
+        top: 12%;
+    }
+    .menu-div{
+        top: 25%;
+   }
+   .cart-div{
+    top: 25%;
+   }
+}
+@media screen and (max-width:776px){
+    header{
+        height: 120px;
+        background-color: white;
+        z-index: 1;
+    }
+    .header-content{
+        width: 90%;
+    }
+    .header-title{
+        top: 25%;
+    }
+    .menu-div{
+        top: 40%;
+   }
+   .cart-div{
+    top: 40%;
+}
+}
+@media screen and (max-width:700px){
+    .header-title{
+        top: 25%;
+    }
+    h1{
+        font-size: 48px;
+    }
+    .menu-div{
+        top: 37%;
+     }
+   .cart-div{
+    top: 37%;
+      }
+}
+@media screen and (max-width:600px){
+
+    .header-title{
+        top: 25%;
+    }
+    h1{
+        font-size: 43px;
+    }
+    .menu-title{
+        font-size: 16px;
+        margin-left: 0px;
+        margin-top:0;
+     }
+   .cart-title{
+        font-size: 16px;
+      }
+      .menu-icon{
+          font-size: 35px;
+      }
+      .menu-icons-div{
+          height: 30px;
+      }
+}
+@media screen and (max-width:550px){
+    header{
+        height: 100px;
+    }
+    h1{
+        font-size: 38px;
+    }
+}
+@media screen and (max-width:480px){
+    header{
+        height: 80px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .header-title{
+        top: 23%;
+    }
+    .menu-div{
+        top: 33%;
+     }
+   .cart-div{
+    top: 33%;
+      }
+}
+@media screen and (max-width:425px){
+    header{
+        height: 70px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .header-title{
+        top: 20%;
+    }
+    .menu-div{
+        top: 31%;
+     }
+   .cart-div{
+    top: 31%;
+      }
+}
+@media screen and (max-width:375px){
+    header{
+        height: 60px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .header-title{
+        top: 18%;
+    }
+}

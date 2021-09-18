@@ -1,0 +1,10 @@
+@media screen and (max-width:676px) {
+    .scroll-to-discover{
+        font-size: 13px;   
+     }
+}
+@media screen and (max-width:400px){
+    .discover-note{
+        top: 515px;
+    }
+}
